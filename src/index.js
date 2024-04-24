@@ -1,6 +1,7 @@
+import './style.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import Message from "./message";
 import Header from "./header";
 import Main from "./main";
 import Aside from "./aside";

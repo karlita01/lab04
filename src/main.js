@@ -1,14 +1,41 @@
+import Carousel from 'react-bootstrap/Carousel';
 const Main = () => {
-    return <main>
-        <div class="card">
-                    <img src="https://mipclista.com/img/cms/a2-3-600x400.png" class="card-img-top" alt="..."></img>
-                    <div class="card-body">
-                        <h5 class="card-title">PC GAMER</h5>
-                        <p class="card-text">Pc gamer, eficaz para que juegues todos los juegos que desees.</p>
+    return <>
+        <main className="row">
+            <div className="col-md-12">
+                <Carousel className="text-center">
 
-                    </div>
-                </div>
-    </main>;
+                    <Carousel.Item>
+                        <img src="https://www.shutterstock.com/image-photo/water-cooled-gaming-pc-rgb-600nw-2224456087.jpg" height="500"></img>
+                        <Carousel.Caption>
+            
+                           
+                        </Carousel.Caption>
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                        <img src="https://www.shutterstock.com/image-photo/kl-malaysia-june-26th-2021-600nw-2001744422.jpg" height="500"></img>
+                        <Carousel.Caption>
+                      
+                           
+                        </Carousel.Caption>
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                        <img src="https://www.shutterstock.com/image-photo/set-collection-black-custom-gaming-600nw-2141740033.jpg" height="500"></img>
+                        <Carousel.Caption>
+
+                     
+                         
+                        </Carousel.Caption>
+                    </Carousel.Item>
+
+                </Carousel>
+
+
+
+            </div>
+        </main></>;
 }
 
 export default Main;

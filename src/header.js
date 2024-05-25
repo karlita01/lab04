@@ -1,3 +1,5 @@
+import "../styles.css";
+
 const feather = require('feather-icons');
 feather.replace();
  setTimeout(()=>{
@@ -5,6 +7,7 @@ feather.replace();
  }, 500)
 const Header = () => {
     return <header>
+        
         <h1 className ="text-center"> PAGINA DE SANTI - con react</h1>
          <nav className="navbar navbar-expand-lg bg-body-tertiary">
                     <div className="container-fluid">

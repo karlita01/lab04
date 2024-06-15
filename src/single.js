@@ -1,15 +1,15 @@
-import computadoras from './data/computadoras.json'
+import productos from './data/productosPaginaPrincipal.json'
 
 const Single = () => {
 
     const currentRoute = window.location.pathname;
-    const compu = computadoras.find(it => currentRoute.includes(it.slug))
+    const pro = productos.find(it => currentRoute.includes(it.slug))
 
     return (<>
-        <h1>{compu.name}</h1>
+        <h1>{pro.name}</h1>
         <hr></hr>
-        <img src={compu.picture}></img>
-        <p>{compu.description}</p>
+        <img src={pro.picture}></img>
+        <p>{pro.description}</p>
     </>);
 }
 
